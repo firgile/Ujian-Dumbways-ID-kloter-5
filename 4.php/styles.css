@@ -1,0 +1,71 @@
+body {
+    margin: 0 auto;
+}
+.header {
+    padding: 15px;
+    background-color: #2980b9;
+    color: #fff;
+    height: 80px;
+    font-size: 44px;
+}
+.navigasi {
+    background-color: #333; 
+    height: 50px; 
+}
+.navigasi li {
+    list-style: none;
+}
+.navigasi li {
+    float: left; 
+    background-color: #999;
+    padding: 15px; 
+    margin-left: 5px; 
+}
+.navigasi li:hover {
+    float: left; 
+    background-color: #ddd; 
+    padding: 15px;
+}
+.navigasi li a {
+    color: #333; 
+    font-weight: bold; 
+}
+.sidebar {
+    width: 20%;  
+    float: left;
+    padding: 15px;
+    background-color: #ddd;
+}
+
+.content {
+    width: 75%;
+    float: right;
+    background-color: #fff;
+    padding: 15px;
+}
+.title-form-daftar {
+    background-color: #ddd;
+    margin: 0 -15px;
+    padding: 15px;
+}
+@media (max-width: 1200px){
+    .sidebar {
+        clear: both;
+        width: 97.3%; 
+        float: none;
+        padding: 15px;
+        background-color: #ddd;
+    }
+    .content {
+        clear: both;
+        width: 97.3%;
+        float: none;
+        background-color: #fff;
+        padding: 15px;
+    }
+    .title-form-daftar {
+        background-color: #ddd;
+        margin: 0 15px;
+        padding: 15px;
+    }
+}

@@ -37,7 +37,7 @@ if (isset($_POST['daftar'])) {
     <li><a href="index.php">Home</a></li>
   </div>
   <div class="sidebar">
-    <p>Anda diwajibkan untuk registrasi terlebih dahulu untuk bisa mengakses beranda sosialmediaku.com ini. Terima Kasih</p>
+    <p>Anda diwajibkan untuk registrasi terlebih dahulu untuk bisa mengakses beranda Terima Kasih</p>
   </div>
   <div class="content">
     <div class="title-form-daftar">Masukkan data diri</div>
